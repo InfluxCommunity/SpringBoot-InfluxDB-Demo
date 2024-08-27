@@ -21,5 +21,5 @@ Meanwhile, the InfluxDBConfig.java class configures the Micrometer integration w
 
 ### Contact
 
-For any feedback, questions etc, please open a GitHub issue or reach out to me on X at [@suyashcjoshi](https://x.com/suyashcjoshi)
+For any feedback, questions etc, please open a GitHub issue or reach out on our [community](https://community.influxdata.com)
 
