@@ -13,7 +13,7 @@ Meanwhile, the InfluxDBConfig.java class configures the Micrometer integration w
 - Download/Clone the project
 - Open application.properties file and edit the InfluxDB properties with your InfluxDB account information namely "API Token", "Org", "Bucket" and "URI" all of which can be found in the InfluxDB portal.
 - Make sure maven has sync up and downloaded all the relevant dependencies
-- Run the project by typing `./mvnw org.springframework.boot:spring-boot-maven-plugin:run`
+- Build & Run the project by typing `./mvnw org.springframework.boot:spring-boot-maven-plugin:run`
 - Open `localhost:8080` to interact with the app as it logs all data in the background
 - Open InfluxDB UI Dashboard and query your bucket to see the data that is logged, you can also see the Springboot actuator endpoints at `http://localhost:8080/actuator/metrics`
 
