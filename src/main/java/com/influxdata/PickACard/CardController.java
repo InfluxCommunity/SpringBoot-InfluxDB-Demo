@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import reactor.core.publisher.Mono;
 
+import java.util.List;
+
 @Controller
 public class CardController {
 
@@ -20,9 +22,9 @@ public class CardController {
     return "index";
   }
 
-  @GetMapping("/card")
+  @GetMapping("/cards")
   @ResponseBody
-  public Mono<String> getRandomCard() {
-    return deckOfCardService.getRandomCardSvg();
+  public Mono<List<String>> getRandomCards() {
+    return deckOfCardService.getRandomCardSvgs();
   }
 }
