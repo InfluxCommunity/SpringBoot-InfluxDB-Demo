@@ -8,6 +8,8 @@ The application is a simple card game and the core logic centered around three k
 
 Meanwhile, the InfluxDBConfig.java class configures the Micrometer integration with InfluxDB based on application.properties file. As the application processes requests, metrics such as response times and request counts are collected by Micrometer and sent to InfluxDB Bucket for storage. These metrics are then visualized in Grafana, allowing developers to monitor the application’s performance in real-time.
 
+![Demo App](https://github.com/suyashcjoshi/springboot-influxdb-app/blob/main/src/main/resources/static/Card-App-Screenshot.png)
+
 ### How to run
 
 - Download/Clone the project
